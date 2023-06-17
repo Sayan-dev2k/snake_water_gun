@@ -6,7 +6,7 @@ root=Tk()
 root.geometry("1400x1000")
 root.title("Snake Water Gun")
 root.config(bg='#EADDCA')
-title=Label(root,text='SNAKE WATER GUN',font=('times new roman',40,'bold'),bg='green',fg='white',bd=5,relief='solid').place(x=0,y=20,relwidth=1)
+title=Label(root,text='SNAKE WATER GUN GAME',font=('times new roman',40,'bold'),bg='green',fg='white',bd=5,relief='solid').place(x=0,y=20,relwidth=1)
 disp=Label(root,text='YOUR CHOICE',font=('times new roman',30,'bold'),bg='red',fg='white')
 disp.place(x=450,y=110)
 r=['snake.png','water.png','gun.png']
